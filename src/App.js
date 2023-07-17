@@ -4,6 +4,7 @@ import React from 'react';
 import FileList from './components/FileList';
 import FileUploader from './components/FileUploader';
 import Footer from './components/Footer';
+import Main from './components/Main';
 import "./App.css";
 
 const files = [
@@ -40,6 +41,7 @@ const App = () => {
         </div>
       </header>
       <h1>Google Drive Clone</h1>
+      <Main/>
       <FileUploader />
       <FileList files={files} />
       <Footer/>
